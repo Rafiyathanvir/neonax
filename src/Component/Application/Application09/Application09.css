@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+.top_bannerA9 img{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+  }
+.top_bannerA9 h2{
+    position: absolute;
+    top: 140px;
+    left: 120px;
+    color: #ffff;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 71px;
+    text-align: justify;
+    font-style: italic;
+    opacity: 1;
+}
+
+.PermiterSystem{
+    margin-bottom: 80px;
+}
+.PSS_head h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #444444;
+}
+.PSS .devide{
+    background:rgb(67, 50, 153);
+    display: inline-block;
+    margin-left: 47%;
+    width: 60px;
+    height: 3px;
+    top: 1;
+    position: relative; 
+    z-index: 1;
+    left: 10px;
+}
+.PSS .devide::before{
+    position:absolute;
+    left: -15px;
+    content: "";
+    height: 3px;
+    width: 10px;
+    background:rgb(67, 50, 153);
+}
+
+/* PSS content */
+
+.PSS_content{
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.PSS_content img{
+    width:100%;
+}
+
+.PSS_content-2{
+    width: 80%;
+    margin-left: 150px;
+
+}
+
+.PSS_content-2 h2{
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #444444;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+.PSS_content-2 ul{
+    margin: 10px 0 0 300px;
+    padding: 10px;
+    width:55%;
+}
+.PSS_content-2 ul li{
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #787878;   
+}
+
+.PSS_content-2 h4{
+    margin-left: 30px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #444444;
+    letter-spacing: 1.5px;
+
+}
+.fenceKits{
+    margin-left: 10px;
+     margin-top: 30px;
+     display: inline-flex;
+   
+}
+
+.fenceKits .fence img{
+    width: 360px;
+    height: 380px;
+    margin-left: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #888888;
+}
+
+.fence{
+    position: relative;
+}
+
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.8);
+    width:360px;
+    height: 50px;
+    margin: 0 0 5px 30px;
+    transition: .5s ease;
+    opacity:0;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+.overlay h3{
+    color: #ffffff;
+    font-family: 400;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.fence:hover .overlay {
+    opacity: 1;
+}
+
+/* Buried &Fiber-Optic solutions */
+
+.PSS_content-3{
+    width: 80%;
+    margin-left: 150px;
+}
+
+.PSS_content-3 h2{
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #444444;
+}
+
+.PSS_points{
+    display: inline-flex;  
+}
+
+.PSS_points ul{
+    margin: 20px 0 0 160px;
+    padding: 10px 10px;
+}
+
+.PSS_points ul li{
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #787878;   
+}
+
+.PSS_content-3 h4{
+    margin-left: 30px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #444444;
+    letter-spacing: 1.5px;
+
+}
+
+.BuriedSol{
+    display: inline-flex;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.BuriedSol .Buried img{
+    width: 360px;
+    height: 380px;
+    margin-left: 160px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #888888;
+}
+
+.Buried{
+    position: relative;
+}
+
+.overlay1 {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.8);
+    width:360px;
+    height: 60px;
+    margin: 0 0 5px 160px;
+    transition: .5s ease;
+    opacity:0;
+    border-radius: 0 0 5px 5px;
+    font-size: 18px;
+    text-align: center;
+}
+.overlay1 h3{
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.Buried:hover .overlay1 {
+    opacity: 1;
+}
+
+@media only screen and (max-width:1441px) {
+    .top_bannerA9 h2{
+        top: 120px;
+    }
+}
+
+@media only screen and (max-width:1025px) {
+    .top_bannerA9 h2{
+        left: 70px;
+        top: 100px;
+        font-size: 24px;
+      }
+
+      .PSS_head h1,.PSS_content-2 h2,
+      .PSS_content-2 h4,.PSS_content-3 h2,
+      .PSS_content-3 h4{font-size: 28px;}
+
+      .PSS_content,.PSS_content-2{margin-left: 100px;}
+      .PSS_content-2 ul{margin-left: 150px;width:65%;}
+      .fenceKits,.PSS_content-2 h4{margin-left: 0;}
+      .fenceKits .fence img{
+        width: 280px;
+        height: 300px;
+        margin-left: 10px;
+      }
+      .overlay {width: 280px;margin:0 0 5px 10px;height: 60px;}
+      .PSS_content-3{margin-left: 100px;}
+      .PSS_points ul{margin-left: 50px;}
+
+      .PSS_content-3 h4,.BuriedSol{margin-left: 0;}
+      .BuriedSol .Buried img{
+        width: 280px;
+        height: 300px;
+        margin-left: 70px;
+      }
+      .overlay1{
+        width: 280px;
+        margin: 0 0 5px 70px;
+      }
+}
+
+@media only screen and (max-width:769px) {
+    .top_bannerA9 h2{left: 40px;}
+
+    .PSS_head h1,.PSS_content-2 h2,
+    .PSS_content-2 h4,.PSS_content-3 h2,
+    .PSS_content-3 h4{font-size: 24px;}
+
+    .PSS_content,.PSS_content-2{margin-left: 80px;}
+    .PSS_content-2 ul{margin-left: 60px;width: 90%;}
+
+    .fenceKits .fence img{
+        width: 200px;
+        height: 200px;
+        margin-left: 10px;
+      }
+      .overlay {width: 200px;margin:0 0 5px 10px;height: 70px;}
+      .PSS_content-3{margin-left: 80px;}
+      .PSS_points ul{margin-left: 30px; width: 300px;}
+
+      .PSS_content-3 h4,.BuriedSol{margin-left: 0;}
+      .BuriedSol .Buried img{
+        width: 200px;
+        height: 200px;
+        margin-left: 70px;
+      }
+      .overlay1{
+        width: 200px;
+        height: 70px;
+        margin: 0 0 5px 70px;
+      }
+      .overlay1 h3, .overlay h3{
+        font-size: 18px;
+      }
+}
+
+@media only screen and (max-width:426px) {
+    .top_bannerA9 img {height: 22vh;}
+    .top_bannerA9 h2{top: 70px;left: 15px; font-size: 16px;}
+
+    .PSS_content,.PSS_content-2{margin-left: 40px;}
+    .PSS_content-2 ul{margin-left:-10px;width: 100%;}
+
+    .fenceKits{
+        display: block;
+    }
+    .PSS_content-3 .PSS_points{
+        display: block;
+    }
+    .BuriedSol{display: block;}
+
+    .fenceKits .fence img{
+        width: 280px;
+        height: 220px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .overlay {width: 280px;margin:0 0 5px 20px;height: 70px;}
+
+    .PSS_content-3{margin-left: 20px;}
+    .PSS_points ul{margin-left: 20px; width: 380px;}
+
+    .BuriedSol .Buried img{
+        width: 280px;
+        height: 200px;
+        margin-left: 40px;
+      }
+      .overlay1{
+        width: 280px;
+        height: 70px;
+        margin: 0 0 5px 40px;
+      }
+}

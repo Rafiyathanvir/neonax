@@ -1,0 +1,215 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+.top_bannerA7 img{
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+  position: relative;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+}
+.top_bannerA7 h2{
+  position: absolute;
+  top: 140px;
+  left: 120px;
+  color: #ffff;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 71px;
+  text-align: justify;
+  font-style: italic;
+  opacity: 1;
+}
+.tb_head h1{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #444444;
+}
+
+ .tb_head .devide{
+    background:rgb(67, 50, 153);
+    display: inline-block;
+    margin-left: 47%;
+    width: 60px;
+    height: 3px;
+    top: 0px;
+    position: relative; 
+    z-index: 1;
+    left: 10px;
+}
+.tb_head .devide::before{
+    position:absolute;
+    left: -15px;
+    content: "";
+    height: 3px;
+    width: 10px;
+    background:rgb(67, 50, 153);
+}
+
+/* trash content  */
+
+.tb_content{
+    width: 80%;
+    margin-left: 150px;
+    display: inline-flex;
+}
+
+.tb_content img{
+    margin: 80px 0 0 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #4b4f57;
+    width: 550px;
+    height: 450px;
+
+}
+
+.tb_content ul {
+    line-height: 2;
+    margin: 100px 30px 0 60px;
+  }
+  
+.tb_content ul li {
+    list-style-type: none;
+    counter-increment: item;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #787878;
+    text-align: justify;
+  }
+
+  /* content-2 */
+.tb_content-2{
+    width: 80%;
+    height: 400px;
+    margin-left: 150px;
+    display: inline-flex;
+}
+.tb_content-2 ul{
+    width: 500px;
+    margin: 50px 0 0 30px ;
+}
+.tb_content-2 ul li {
+    list-style-type: none;
+    counter-increment: item;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #787878;
+    text-align: justify;
+  }
+
+.tb_content-2 img{
+    width:500px;
+    height: 270px;
+    margin: 70px 0 0  150px;
+    border-radius: 10px;
+}
+  
+.trash_bin ul li:before {
+    content: counter(item);
+    display: inline-block;
+    width: 12px;
+    height: 24px;
+    font-family: "Indie Flower", cursive;
+    margin-right: 20px;
+    background-color: #a894f9;
+    color: #070707;
+    font-weight: bold;
+    font-size: 140%;
+    padding: 0 8px 8px;
+    border-radius: 3px;
+    line-height: 1.3;
+  }
+
+
+  @media only screen and (max-width:1441px) {
+    .top_bannerA7 h2{top: 120px;}
+  }
+
+  @media only screen and (max-width:1025px) {
+    .top_bannerA7 h2{
+      left: 70px;
+      top: 100px;
+      font-size: 24px;
+    }
+    .tb_head h1{font-size: 28px;}
+    .tb_content{margin-left: 100px;}
+    .tb_content img{margin-left: 20px; width: 450px;height: 400px;}
+    .tb_content ul{
+      margin: 60px 0 0 40px;
+    }
+    .tb_content ul li {
+      margin-top: 20px;
+    }
+
+    .tb_content-2{margin-left: 100px;}
+    .tb_content-2 ul{
+      width: 500px;
+      margin: 40px 0 0 10px ;
+    }
+    .tb_content-2 img{
+      margin: 60px 0 0 10px;
+      width: 400px;
+      height: 250px;
+    }
+  }
+
+  @media only screen and (max-width:769px) {
+    .top_bannerA7 h2{left: 40px;}
+    .tb_content,.tb_content-2{
+      display: block;
+    }
+    .tb_content-2{
+      flex-wrap: wrap-reverse;
+    }
+    .tb_content img{
+      margin: 50px 0 0 20px;
+      width: 550px;
+    }
+    .tb_content-2{
+      height: 600px;
+    }
+    .tb_content ul {
+      margin-left: -20px;
+    }
+    .tb_content-2 ul{
+      margin-left: -20px;
+    }
+    .tb_content-2 img{
+      margin-left: 80px;
+    }
+  }
+
+  @media only screen and (max-width:426px) {
+    .top_bannerA7 img {height: 22vh;}
+    .top_bannerA7 h2{top: 70px;left: 15px; font-size: 16px;}
+    .tb_head h1{font-size: 24px;}
+
+    .tb_content img{
+      margin: 50px 0 0 -70px;
+      width: 380px;
+    }
+    .tb_content-2{
+      height: 600px;
+    }
+    .tb_content ul {
+      margin-left: -70px;
+      width: 370px;
+    }
+    .tb_content-2 ul{
+      margin-left: -70px;
+      width: 370px;
+    }
+    .tb_content-2 img{
+      margin-left: -50px;
+      width: 350px;
+    }
+  }

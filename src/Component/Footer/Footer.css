@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+.Footer{
+    width: 100%;
+    height: 100vh;
+    background: #F1F1F1;}
+.foot_list{
+    display: flex;
+    width: 100%;
+    margin-right: 20px;
+    padding-top: 50px;
+    margin-bottom: 60px;
+}
+.list01{
+margin-bottom: 200px;
+
+
+}
+.list01,.list02 ul{
+    list-style: none;
+    margin-left: -15px;
+
+}
+
+
+
+.h2logo{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+}
+.foot_list .list01{
+    width: 387px;
+    
+
+    display: block;
+    margin-left: 90px;
+    margin-top: -20px;
+}
+.foot_list .list01 h1{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 47px;
+    color:#444444;
+}
+.foot_list .list01 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+    color: #444444;
+        margin-top: 20px;
+        width: 230px;
+}
+.logo1{
+    width: 200px;
+margin-right: 60px;
+
+
+}
+.foot_img{
+    display: flex;
+    margin: 10px 0px;
+}
+.foot_img a{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px ;
+    border-radius: 50%;
+
+    background: #008FC9;}
+.foot_img .icon{
+    color: #ffffff;
+    margin: 8px;
+}
+
+.foot_list .list02{
+    margin-left: 100px;
+}
+.foot_list .list02 h1{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 47px;
+    color: #444444;
+}
+.foot_list .list02 ul li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+    color: #444444;
+        margin-top: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+hr{
+    margin: 0px 150px 40px 100px;
+}
+.Footer .copy{
+    margin-left: 38%;
+    font-weight: 400;
+    font-size: 18px;
+    color: #444444;
+        text-decoration: none;
+        margin-bottom: 20px;
+}
+
+
+    @media only screen and (max-width:1441px) {
+        .Footer{height: 72vh;}
+        .foot_list .list02{
+            margin-left: 120px;
+        }
+    }
+
+@media only screen and (max-width:1025px) {
+    .Footer{
+        width: 100%;
+        height: 72vh;
+    }
+    .foot_list{
+        margin-left: 60px;
+        width: 100%;
+    }
+    .foot_list .list01{
+        width: 300px;
+    }
+    .foot_list .list01 p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .foot_list .list02{
+        margin-left: 60px;
+    }
+    .foot_list .list02 ul li{
+        margin-left: 5px;
+        font-size: 18px;
+    }
+    hr{
+    margin: 0 120px 10px 100px;
+    }
+    .Footer .copy{
+        margin-left: 32%;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:769px) {
+    .Footer{height: 70vh; width: 100%;}
+
+    .foot_list{margin-left: 30px;}
+    .foot_list .list01 h1{font-size: 24px;}
+    .foot_list .list02 h1{font-size: 24px;}
+
+    .foot_list .list01{
+        width: 240px;
+    }
+    .foot_list .list01 p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .foot_list .list02{
+        margin-left: 45px;
+    }
+    .foot_list .list02 ul li{
+        margin-left: 5px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    hr{
+        margin: 0 110px 10px 100px;
+    }
+    .Footer .copy{
+        margin-left: 32%;
+        font-weight: 400;
+        font-size: 14px;
+
+    }
+}
+
+@media only screen and (max-width:426px) {
+    .Footer{
+        height: 120vh;
+        max-width: 100%;
+    }
+    .foot_list{display: block;}
+    .foot_list .list01{width:350px;}
+
+    .foot_list .list02{
+        margin-left: 10px;
+    }
+    .foot_list .list02 ul li{
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    hr{
+        margin: 0 40px 10px 40px;
+    }
+    .Footer .copy{
+        margin-left: 18%;
+    }
+}
+
+@media only screen and (max-width:415px) {
+    .Footer{height: 100vh;}
+    .foot_list .list01{width:320px;}
+    .Footer .copy{font-size: 12px;}
+}
+@media only screen and (max-width:394px) {
+    .Footer{height: 105vh;}
+    .Footer .copy{margin-left: 18%;}
+}
+@media only screen and (max-width:376px) {
+    .Footer{height: 155vh;}
+    .Footer .copy{margin-left: 18%;}
+}

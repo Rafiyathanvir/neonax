@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+.top_banner002 img{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+  }
+  .top_banner002 h2{
+    position: absolute;
+    top: 140px;
+    left: 120px;
+    color: #ffff;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 71px;
+    text-align: justify;
+    font-style: italic;
+    opacity: 1;
+  }
+.s{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin:0 0 80px 120px;
+    width: 85%;
+}
+.left_box{
+    width: 350px;
+    height: 520px;
+    background-color: #666666;
+    margin: 80px 0 0 100px;
+    border-radius: 20px;
+}
+.locat{
+    padding: 60px 20px 15px 20px;
+}
+.locat img{
+    height: 40px;
+    width: 40px;
+    margin:0px 0px 7px 130px;
+}
+.locat p{
+    text-align: center;
+    line-height: 23px;
+    letter-spacing:0.7px;
+    font-size: 18px;
+    color: #fff;
+    font-weight:400;
+   
+}
+
+.phone{
+    padding: 25px 20px 15px 20px;
+}
+.phone img{
+    height: 40px;
+    width: 40px;
+    margin:0px 0px 7px 135px;
+}
+.phone p{
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.mail img{
+    height: 40px;
+    width: 40px;
+    margin:10px 0px 7px 155px;
+}
+.mail p{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.form_container{
+    margin: 100px 0 0 40px;
+}
+.form_container h1{
+    margin-bottom: 15px;
+    color: #444444;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 47px;
+}
+.form_container p{
+    margin-bottom: 10px;
+    width: 700px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #787878;
+}
+.form_container form{
+    width: 730px;
+    margin-top: 30px;
+}
+.form_container input{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    text-indent: 20px;
+    box-shadow: 0px 0px 10px rgba(10, 6, 6, 0.25),0px 0px 10px rgba(10, 6, 6, 0.25);
+}
+.form_container .name{
+    width: 700px;
+    height: 50px;
+    font-size: 18px;
+}
+.form_container .name2 input{
+    width: 340px;
+    height: 50px;
+    font-size: 18px;
+    height: 50px;
+    width: 345px;
+    margin-top: 25px;
+}
+.form_container .name4{
+    margin-left: 10px;
+}
+.form_container .message{
+    width: 700px;
+    height: 100px;
+    margin-top: 25px;
+    text-indent: 20px;
+    padding-top: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(10, 6, 6, 0.25),0px 0px 10px rgba(10, 6, 6, 0.25);
+}
+form button{
+    width: 250px;
+    height: 50px;
+    border: none;
+    background-color: crimson;
+    margin: 20px 0 0  0;
+    border-radius: 10px;
+    font-size: 17px;font-weight: 560;
+    color: #fff;
+    cursor: pointer;
+}
+.map{
+    width: 100%;
+    height: 60vh;
+    border-radius: 20px;
+}
+.map iframe{
+    width: 100%;
+    height: 60vh;
+}
+
+@media only screen and (max-width:1441px) {
+    .top_banner002 img{
+        height: 30vh;
+     }
+     .top_banner002 h2{top: 120px;}
+     .s{
+        margin: 0 0 80px 70px;
+     }
+     .map,.map iframe{
+        height: 60vh;
+     }
+}
+
+@media only screen and (max-width:1025px) {
+    .top_banner002{width: 100%;}
+    .top_banner002 h2{left: 50px;}
+    .s{width: 90%; margin:0 0 80px 50px;}
+    .left_box{width: 300px; height: 470px; margin-left: 50px;}
+    .locat{padding: 50px 20px 15px 20px;}
+    .locat img{
+        margin-left: 110px;
+    }
+    .phone img{
+        margin-left: 115px;
+    }
+    .mail img{
+        margin-left: 135px;
+    }
+    .form_container{margin-top: 80px;}
+    .form_container p{
+        width: 550px;
+    }
+    .form_container form{width: 650px;}
+    .form_container .name{width: 530px;}
+    .form_container .name2 input{width: 260px;}
+    .form_container .message{width: 530px;}
+    form button{width: 180px;}
+}
+
+@media only screen and (max-width:769px) {
+    .top_banner002 img{height: 24vh;}
+    .top_banner002 h2{
+        left: 60px;
+        top: 80px;
+        font-size: 20px;
+     }
+
+    .s{grid-template-columns: auto;}
+    .left_box{width: 300px; height: 470px; margin-left: 180px;}
+    .form_container p{
+        width: 640px;
+    }
+    .form_container{margin-left: 10px;}
+    .form_container form{width: 650px;}
+    .form_container .name{width: 610px;}
+    .form_container .name2 input{width: 300px;}
+    .form_container .message{width: 610px;}
+
+    .map,.map iframe{
+        height: 35vh;
+     }
+}
+
+@media only screen and (max-width:426px){
+    .s{margin-left: 30px;}
+    .top_banner002 img{height: 15vh;}
+   .top_banner002 h2{top: 70px;left: 20px;}
+    .left_box{ margin-left: 20px;}
+    .form_container p{
+        width: 300px;
+    }
+    .form_container{margin-left: 0;}
+    .form_container form{width: 350px;}
+    .form_container .name{width: 320px;}
+    .form_container .name2 input{width: 155px;}
+    .form_container .message{width: 320px;}
+    form button{width: 120px; font-size: 14px;}
+
+    .map,.map iframe{
+        height: 25vh;
+     }
+}

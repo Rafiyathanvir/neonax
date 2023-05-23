@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+#Product04{
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+.top_bannerp4 img{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+  }
+  .top_bannerp4 h2{
+    position: absolute;
+    top: 140px;
+    left: 120px;
+    color: #ffff;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 71px;
+    text-align: justify;
+    font-style: italic;
+    opacity: 1;
+  }
+#Product04 h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    color: #444444;
+    margin-top: 20px;
+}
+#Product04 .devide{
+    background:rgb(67, 50, 153);
+    display: inline-block;
+    margin-left: 47%;
+    width: 60px;
+    height: 3px;
+    top: 0;
+    position: relative; 
+    z-index: 1;
+    left: 10px;
+}
+#Product04 .devide::before{
+    position:absolute;
+    left: -15px;
+    content: "";
+    height: 3px;
+    width: 10px;
+    background:rgb(67, 50, 153);
+}
+.product04{
+    width: 85%;
+    align-items: center;
+    margin: 10px 150px;
+    display: block;
+}
+.product04 .pro_1001{
+    display: block;
+    text-align: justify;
+    margin-top: 20px ;
+}
+.pro_1001 h3{
+    font-size: 28px;
+    font-weight: 500;
+    color: #444444;
+}
+.pro_1001 ul li{
+    font-size: 16px;
+    font-weight: 400;
+    color: #787878;
+    line-height: 28px;
+    margin-top: 20px;
+}
+.pro_1001{
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: inline-flex;
+}
+.sub_pro, .high{
+    margin:40px 80px;
+}
+
+.sub_pro ul, 
+.high ul {
+    display: block;
+    margin-left: 80px;
+    padding: 20px;
+  }
+.pro_1001 img{
+    width: 600px;
+    float: right;
+    position: relative;
+    bottom: 350px;
+    right: 40px;
+}
+.pic222{
+    float: right;
+    position: relative;
+    bottom: 100px;
+    left: 20px;
+}
+.pic02 ul li {
+    display: block;
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    color: #787878;
+    line-height: 28px;
+  }
+  
+  .pic022 ul li:not(:last-child) {
+    margin-bottom: 16px;
+  }
+  
+  .pic022 ul li:before {
+    content: "";
+    position: absolute;
+    top: 1.3em;
+    left: -30px;
+    margin-top: -.9em;
+    background: #042F5D;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+  }
+
+/* .pic11{
+    display: inline-flex;
+    margin-left: 150px;
+  }  */
+/* .pic11 img{
+    margin: 30px 50px;
+}
+img{
+    width: 400px;
+  } */
+
+.pro_2002{
+    display: block;
+    position: relative;
+    /* bottom: 350px; */
+}
+.pro_2002 .top{
+    display: inline-flex;
+}
+.pro_2002 .top img{
+    width: 300px;
+    margin: -380px 0 0 120px;
+}
+.pro_2002 .bottom{
+    margin: 60px 0 80px 280px;
+    width: 250px;
+    display: flex;
+}
+.pro_2002 .bottom img{
+    margin-left: 40px;
+}
+
+@media only screen and (max-width:1441px) {
+    .top_bannerp4 h2{top: 120px;}
+    .product04{margin-left: 100px;}
+}
+
+@media only screen and (max-width:1025px) {
+    .top_bannerp4 h2{left: 40px;}
+    #Product04 h1,.pro_1001 h3{
+        font-size: 24px;
+    }
+    .pro_1001{margin-left: -10px;}
+    .pro_1001 img{width: 400px;right: -20px;bottom: 300px;}
+    .pro_2002 .top img{    width: 250px;
+    margin: -220px 0 0 40px;}
+    .pro_2002 .bottom{margin: 60px 0 80px 120px;}
+}
+
+@media only screen and (max-width:769px) {
+    .top_bannerp4 h2,#Product04 h1,.pro_1001 h3{
+        font-size: 20px;
+    }
+    .sub_pro, .high{
+        margin: 30px 20px;
+    }
+    .sub_pro ul, 
+    .high ul{
+        margin-left: 0px;
+        padding: 5px;
+    }
+    .pro_1001 img{width: 350px;}
+    .pro_2002 .top img{ width: 200px;
+    margin: -220px 0 0 10px;}
+    .pro_2002 .bottom{margin: 60px 0 80px 10px;}
+}
+
+@media only screen and (max-width:426px) {
+    .top_bannerp4 img{height: 20vh;}
+    .top_bannerp4 h2{top: 70px;left: 20px;font-size: 18px;}
+    .product04{margin: 0 30px;}
+    .pro_1001 img{float: none;margin: 300px 0 0 0; width: 250px;}
+    .high{margin-top: -250px;}
+    .pic222 img{margin: 400px 100px 0 0;}
+    .pro_2002{top: -350px;}
+    .pro_2002 .top,.pro_2002 .bottom{display: block;}
+    .pro_2002 .top img{margin: 10px 0 0 40px;}
+}
