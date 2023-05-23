@@ -1,0 +1,149 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }.GAW_Meter{
+    margin-bottom: 80px;
+}
+.top_bannerA4 img{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+  }
+  .top_bannerA4 h2{
+    position: absolute;
+    top: 140px;
+    left: 120px;
+    color: #ffff;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 71px;
+    text-align: justify;
+    font-style: italic;
+    opacity: 1;
+  }
+.GAW_head h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #444444;
+}
+.GAW .devide{
+    background:rgb(67, 50, 153);
+    display: inline-block;
+    margin-left: 47%;
+    width: 60px;
+    height: 3px;
+    top: 0;
+    position: relative; 
+    z-index: 1;
+    left: 10px;
+}
+.GAW .devide::before{
+    position:absolute;
+    left: -15px;
+    content: "";
+    height: 3px;
+    width: 10px;
+    background:rgb(67, 50, 153);
+}
+
+/* Gas and Water Meter Content */
+
+.GAW_content{
+    width: 80%;
+    margin:40px 0 0 150px;
+}
+
+.GAW_content img{
+    width: 1200px;
+    height: 500px;
+    margin-left: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 25px #4b4f57;
+}
+
+.GAW_content p{
+    margin: 80px 0 0 20px;
+    line-height: 28px;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #787878;
+}
+.GAW_content h3{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #444444;
+    letter-spacing: 2px;
+}
+
+.GAW_content ul{
+    margin: 30px 0 0 300px;
+}
+
+            
+.GAW_content ul li {
+    list-style-type: none;
+    counter-increment: item;
+    font-size: 16px;
+    font-weight: 400;
+    color: #787878;
+    line-height: 45px;
+  }
+.GAW_content ul li:before {
+    content: counter(item);
+    margin-right: 5px;
+    font-size: 80%;
+    background-color: #0d53f6;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 3px;
+  }
+
+
+  @media only screen and (max-width:1441px) {
+    .top_bannerA4 h2{top: 120px;}
+  }
+
+  @media only screen and (max-width:1025px) {
+    .top_bannerA4 h2{
+        left: 70px;
+        top: 100px;
+        font-size: 24px;
+    }
+    .GAW_head h1{font-size: 28px;}
+    .GAW_content{margin: 40px 0 0 100px;}
+    .GAW_content img{width: 800px; height: 400px;}
+    .GAW_content h3{font-size: 24px;}
+    .GAW_content ul{margin: 30px 0 0 250px;width: 400px;}
+  }
+
+
+  @media only screen and (max-width:769px) {
+    .top_bannerA4 h2{left: 40px;}
+    .GAW_content{margin: 40px 0 0 50px;}
+    .GAW_content img{width: 650px; height: 400px;}
+    .GAW_content ul{margin: 30px 0 0 150px;}
+  }
+
+  @media only screen and (max-width:426px) {
+    .top_bannerA4 img{height: 20vh;}
+    .top_bannerA4 h2{top: 70px;left: 10px; font-size: 16px;}
+    .GAW_content{margin: 40px 0 0 20px;}
+    .GAW_content img{width: 350px; height: 250px;}
+    .GAW_content ul{margin: 20px 0 0 20px; width: 350px;}
+    .GAW_content p{margin: 40px 0 0 40px;}
+    .GAW_content ul li{line-height: 32px;}
+  }

@@ -1,0 +1,595 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+.Application08{
+    overflow: hidden;
+}
+  .top_bannerA8 img{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+  }
+  .top_bannerA8 h2{
+    position: absolute;
+    top: 140px;
+    left: 120px;
+    color: #ffff;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 71px;
+    text-align: justify;
+    font-style: italic;
+    opacity: 1;
+  }
+
+.SoftwareSol .Software_head h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #444444;
+}
+
+.Software_head .devide{
+    background:rgb(67, 50, 153);
+    display: inline-block;
+    margin-left: 47%;
+    width: 60px;
+    height: 3px;
+    top: 0px;
+    position: relative; 
+    z-index: 1;
+    left: 10px;
+}
+.Software_head .devide::before{
+    position:absolute;
+    left: -15px;
+    content: "";
+    height: 3px;
+    width: 10px;
+    background:rgb(67, 50, 153);
+}
+
+/* Software Content */
+
+.Software_content{
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.Software_content h2{
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #444444;
+}
+.Software_content .list{
+  display: inline-flex;
+  height: 550px;
+  position: relative;
+  margin:30px 0 0 0;
+}
+.list ul li{
+    padding-bottom: 13px;
+    width: 320px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 800;
+    text-indent: 5px;
+    color: #444444;
+}
+
+.list img{
+    height: 480px;
+    width: 800px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #888888;
+ 
+}
+.list ul li{
+    transition: 0.5s;
+    display: flex;
+}
+/* .list li:hover{
+    font-size: 30px;
+    text-indent: 5px;
+    padding: 4px 4px 4px 8px;
+    border-radius: 20px;
+    color:rgb(18, 175, 196);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(23, 66, 123);
+    width: 300px;
+               
+}
+.list li:hover p{
+    margin-left:5px;
+    
+} */
+
+/* software content-2 */
+
+.software_content-2{
+    margin-left: 150px;
+    width: 80%;
+
+}
+.software_content-2 h2{
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #444444;
+}
+.software_3lists{
+    display:inline-flex;
+    margin-top:50px;
+}
+.list1{
+  width: 150px;
+  height:fit-content;
+  margin: 150px 0 0 200px
+}
+.list1 ul li{
+    list-style: none;
+    font-size: 20px;
+    font-weight:900;
+    line-height: 28px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+
+.circle {
+    position: relative;
+}
+.circle img{
+    width: 500px;
+    height: 600px;
+    bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #888888;
+}
+.circle_head1{
+    position: absolute;
+    top:100px;
+    left: 230px;
+}
+
+.circle_head2{
+    position: absolute;
+    top:45%;
+    left: 150px;
+}
+.circle_head3{
+    position: absolute;
+    top:75%;
+    left: 220px;
+}
+.list2{
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+.list2-top li{
+    list-style: none;
+    font-size: 20px;
+    font-weight:900;
+    margin-top: 10px;
+    line-height: 28px;
+    letter-spacing:1px;
+}
+.list2-bottom{
+    margin-top: 150px;
+}
+
+.list2-bottom li{
+    list-style: none;
+    font-size: 20px;
+    font-weight:900;
+    line-height: 28px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+/* Software content-3 */
+
+.Software_content-3{
+    width: 85%;
+    margin-top: 50px;
+    height: auto;
+    position: relative;
+}
+.Software_content-3 h2{
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin-left: 220px;
+    font-size: 32px;
+    font-weight: 500 ;
+    color: #444444;
+}
+
+
+.SC{
+    display: inline-flex ;
+}
+
+.three_vertical{
+    display: inline-flex;
+    margin-top:10px;
+    width: 45%;
+    height: auto;
+}
+
+.vertical1{
+    width: 50%;     
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
+.vertical2{
+    width: 50%;
+    position: relative;
+    top: 20px;
+    left: 60px;
+}
+.vertical3{
+    width: 50%;
+    position: relative;
+    top: 100px;
+    left: 90px;
+}
+
+.card{
+    position: relative;
+    width: 50%;
+    max-width: 200px;
+    height: 150px;
+    margin-top: 10px;
+}
+.image{
+    display: block;
+    width: 100%;
+    height: 150px;
+}
+.card .title{
+    position: absolute;
+    bottom:40px; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+}
+.card:hover .title{
+    opacity: 1;
+}
+
+
+
+.hexagon {
+    top: 170vh;
+    left: -150px;  
+    position: relative;
+    right: 100px;
+    /* To Add effect on the background */
+    background: linear-gradient(to left,
+               DarkBlue, DodgerBlue);
+    border-radius: 10px;
+    height: 150px; 
+    width: 93px;
+    box-sizing: border-box;
+    transition: all 1s;
+    border: 0.4vh solid transparent;
+    border-top-color: dodgerblue;
+    border-bottom-color: dodgerblue;
+    z-index: 2;
+}
+  
+/*To create pseudo-class */
+.hexagon:before, .hexagon:after {
+    content: "";
+    border: inherit;
+    position: absolute;
+    top: -0.5vh;
+    left: -0.5vh;
+      
+    /* To Add effect on the background */
+    background: linear-gradient(to left,
+            DarkBlue, DodgerBlue);
+    border-radius: inherit;
+    height: 100%;
+    width: 100%;
+    z-index:-1;
+}
+  
+/* Align them in such a way
+that they form a hexagon */
+.hexagon:before {
+    transform: rotate(60deg);
+}
+.hexagon:after {
+    transform: rotate(-60deg);
+}
+
+
+#hexagon{
+    margin-top: -40px;
+}
+#hexagon2{
+    margin-top: 30px;
+}
+.hex2{
+    position: relative;
+    left: 70px;
+    margin-top: -130px;
+  
+}
+
+#hexagon4{
+    margin-top: 30px;
+}
+#hexagon5{
+    margin-top: 30px;
+}
+.hex3{
+   
+    margin-top: -40px;
+    position: relative;
+    left: 130px;
+}
+#hexagon8{
+    margin-top: 30px;
+}
+.hexagon p{
+    color:#fff;
+    text-align: center;
+    margin-top: 5px;
+    transform: translate(0px,40px);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* slide */
+.tech{
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 750px;
+    height:600px;
+    overflow-x: hidden;
+}
+.tech h2{
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size: 32px;
+    color: #444444;
+}
+
+.tech_slider{
+    display: inline-flex;
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 10px;
+    transition: all 1s ease;
+}
+
+#two02:checked ~ .tech_slider{
+    margin-left: -70%;
+}
+
+.slide_card{
+    height: 350px;
+    width: 300px;
+    box-shadow: 0px 0px 10px #888888;
+    border-radius: 20px;
+    margin-right: 100px;
+    background-color: #fff;
+}
+.slide_para{
+    width: 250px;
+    height: 80px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 16px;
+    margin-top: 40px;
+    text-align: justify;
+    color: #787878;
+}
+.slide_card h1{
+    margin-top: 22px;
+    margin-left: 40px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #444444;
+}
+.slide_img{
+    height: 35px;
+    width: 35px;
+    position: relative;
+    top: 7px;
+    margin-right: 10px;
+}
+.mongo{
+    position: relative;
+    top: 90px;
+    left: 30px;
+    height: 30px;
+    width: 100px;
+    
+}
+.couch{
+    position: relative;
+    left: 50px; 
+    top: 90px;
+    height: 30px;
+    width: 80px;
+}
+
+/* slider */
+.button01{
+    display: flex;
+    margin:20px;
+    justify-content: center;
+}
+.button01 label{
+    height: 15px;
+    width: 15px;
+    background: #50525a;
+    margin: 0 4px;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+
+.button01 label.active{
+    width: 35px;
+}
+#one01:checked ~ .button01 label.one01{
+    width: 35px;
+}
+#two02:checked ~ .button01 label.two02{
+    width: 35px;
+}
+#two02:checked ~ .button01 label.one01{
+    width: 15px;
+}
+#one01:checked ~ .button01 label.two02{
+    width: 15px;
+}
+input[type="radio"]{
+    display: none;
+}
+
+
+@media only screen and (max-width:1441px) {
+    .top_bannerA8 h2{
+        top: 120px;
+    }
+}
+
+@media only screen and (max-width:1025px) {
+    .top_bannerA8 h2{
+      left: 70px;
+      top: 100px;
+      font-size: 24px;
+    }
+    .SoftwareSol .Software_head h1,
+    .Software_content h2,
+    .software_content-2 h2,
+    .Software_content-3 h2,
+    .tech h2{font-size: 28px;}
+
+    .Software_content{margin-left: 80px;}
+    .list ul li{font-size: 18px;}
+    .list img{width: 600px;height: 400px;}
+
+    .software_content-2{
+        margin-left: 80px;
+    }
+    .list1{margin-left: 50px;}
+    .list1 ul li{width: 150px;}
+    .list2-top li{width: 220px;}
+
+    .vertical1{left: 20px;}
+    .vertical2{left: -10px;}
+    .vertical3{left:-20px;}
+    .card{width: 150px;}
+
+    .hexagon{left: -350px;}
+
+    .tech{width: 95%;}
+    .tech{margin-left: 50px;}
+    .slide_card{margin-right: 58px;}
+}
+
+@media only screen and (max-width:769px) {
+    .top_bannerA8 h2{left: 40px;}
+    .SoftwareSol .Software_head h1,
+    .Software_content h2,
+    .software_content-2 h2,
+    .Software_content-3 h2,
+    .tech h2{font-size: 24px;}
+
+    .Software_content{margin-left: 40px;}
+    .list ul li{font-size: 18px;}
+    .list img{width: 400px;height: 350px;}
+
+    .software_content-2{
+        margin-left: 40px;
+    }
+    .list1{margin-left: -20px;}
+    .circle img{width: 400px;}
+    .circle_head1{left: 45%;}
+    .circle_head3{left: 180px;}
+    .list2-bottom li,.list1 ul li,.list2-top li{
+        font-size: 14px;
+    }
+
+    .vertical1{left: -20px;}
+    .vertical2{left: -80px;}
+    .vertical3{left:-140px;}
+    .card{width: 150px;}
+
+    .hexagon{left: -400px;}
+
+    .tech{width: 95%;}
+    .tech{margin-left: 20px;}
+    .slide_card{margin-right: 20px;}
+    .slide_card h1{font-size: 18px;}
+    .slide_card{width: 250px;height: 300px;}
+    .slide_para{width: 200px;}
+
+    .mongo,.couch{top: 50px;}
+    .mongo{left:20px;}
+}
+
+@media only screen and (max-width:426px) {
+    .top_bannerA8 img {height: 22vh;}
+    .top_bannerA8 h2{top: 70px;left: 15px; font-size: 16px;}
+
+    .tb_head h1{padding-top: 0px;}
+    .Software_content .list{display: inline-block;}
+    .list ul{margin-left: 100px;}
+    .list img{ width: 370px;}
+
+    .software_content-2{display: none;}
+
+    .Software_content-3 h2{margin-left: 70px;}
+
+    .vertical1{left: 10px;}
+    .vertical2{left: -10px;}
+    .vertical3{left:-30px;}
+
+    .card{max-width: 120px;
+    height: 120px;margin-top: 40px;}
+    .card .title{bottom: 20px;}
+
+    .hexagon{
+        width: 75px;
+        height: 120px;
+        left: -270px;
+    }
+    .hexagon p{
+        font-size: 16px;
+    }
+
+
+    .tech_slider{display: block; overflow: hidden;height: 2510vh;}
+    .tech{height: 270vh; overflow: hidden;}
+    .button01{display: none;}
+    .slide_card{margin-left: 70px;}
+}
+  
